@@ -1,0 +1,43 @@
+.draft-editor{
+  border: 1px solid #7c8da6;
+  // display: flex;
+  hr{
+    margin: 0;
+  }
+  .top-button-group{
+  text-align: left;
+  display: flex;
+  box-sizing: border-box;
+  & span:nth-child(n){
+    margin:10px;
+    margin-right: 0;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    border: outset;
+    cursor: pointer;
+    &.active{
+      border:inset;
+    }
+    &:hover{
+      border:inset;
+    }
+  }
+}
+.DraftEditor-root{
+  // position: relative;
+  // border: 1px solid #7c8da6;
+  padding: 10px;
+  min-height: 60px;
+  position: relative;
+  box-sizing: border-box;
+  top: -1px;
+  .public-DraftEditorPlaceholder-root{
+    // min-height: 60px;
+  }
+  .DraftEditor-editorContainer{
+    // min-height: 60px;
+  }
+}
+}
